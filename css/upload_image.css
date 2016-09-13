@@ -1,0 +1,84 @@
+div.cn {
+    position: relative;
+    height: 100%;
+}
+
+div.inner {
+    position: absolute;
+    top: 60%; left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+#upload-wrapper {
+
+	width: 860px;
+	left:20%;
+	top:15%;
+	height: 200px;
+	background: #3D91A2;
+	position: absolute;
+	display: inline-block;
+	border-radius: 10px;
+
+}
+
+
+#upload-wrapper h3 {
+	padding: 0px 0px 10px 0px;
+	border-bottom: 1px dotted #DDD;
+}
+#upload-wrapper input[type=file] {
+	padding: 6px;
+	background: #FFF;
+	border-radius: 5px;
+}
+
+#upload-wrapper #submit-btn {
+	border: none;
+	padding: 10px;
+	background: #61BAE4;
+	border-radius: 5px;
+	color: #FFF;
+}
+#output{
+	padding: 5px;
+	font-size: 12px;
+}
+
+/* prograss bar */
+#progressbox {
+	border: 1px solid #CAF2FF;
+	padding: 5px; 
+	border-radius: 3px;
+	position: absolute;
+	left: 15%;
+	width: 70%;
+	display: none;
+}
+
+#progressbar {
+	border-radius: 3px;
+	background-color: #CAF2FF;
+
+}
+
+/*#statustxt {
+	top:3px;
+	left:50%;
+	position:absolute;
+	display:inline-block;
+	color: #FFFFFF;
+}*/
+
+#statustxt {
+
+	color: #FFFFFF;
+}
+
+
+#small_x_space{
+
+	width:1px;
+	display: inline-block;
+}

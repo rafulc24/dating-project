@@ -1,0 +1,81 @@
+td input[type=text]{
+
+	width:120px;
+}
+
+td input[type=password]{
+
+	width:120px;
+
+}
+
+#forget_password a{
+
+text-decoration: none;
+}
+
+#forget_password{
+
+	width: 200px;
+	text-align: left;
+}
+
+#registration_table td  {
+	
+
+}
+
+#registration_table td span {
+	
+		font-size:14px;
+		/* color:yellow; */
+
+}
+
+#registration_table td:nth-child(1) {
+	
+	text-align: left;
+
+}
+
+#registration_table td:nth-child(2) {
+	
+	text-align: left;
+
+
+}
+
+#registration_table td:nth-child(3) {
+
+	width: 10px;
+
+
+}
+
+#registration_table td:nth-child(4) {
+
+	padding-top:5px;
+
+}
+
+
+#registration_table td:nth-child(5) {
+
+
+}
+
+/*
+.small_font_size{
+	
+	font-size:10px;
+	font-weight: bold;
+
+}
+*/
+
+#heart_img{
+	/*
+	width:400px;
+	height:500px;
+	*/
+}
